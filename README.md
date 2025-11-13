@@ -1,164 +1,171 @@
-# PlayStation Pulse PSFree Host 9.xx
+# 4GAMER PSFree Host 9.xx
 
-A modern, redesigned PlayStation 4 jailbreak host for firmware 9.xx with multi-version GoldHEN support. This project features a complete visual overhaul of the original PSFree exploit, with a sleek dark theme optimized for PS4 browsers, version selection system, and an extensive collection of homebrew payloads.
+مُضيف جيلبريك (Jailbreak Host) عصري ومُعاد تصميمه لجهاز PlayStation 4 لإصدارات البرامج الثابتة 9.xx مع دعم GoldHEN متعدد الإصدارات. يتميز هذا المشروع بتجديد بصري كامل لاستغلال PSFree الأصلي، مع تصميم داكن أنيق ومُحسّن لمتصفحات PS4، ونظام اختيار الإصدار، ومجموعة واسعة من أدوات Homebrew.
 
-## 🎮 Features
+## 🎮 الميزات
 
-- **Version Selection System**: Choose between GoldHEN v2.4b18.6 (Latest) or v2.4b18.5 (Stable)
-- **Modern Dark Theme**: Sleek PlayStation-inspired design with gradient backgrounds and purple/pink accents
-- **PS4 Browser Optimized**: Lightweight and fast-loading interface designed specifically for PS4 Fat and higher
-- **Dual GoldHEN Support**: Both latest and stable GoldHEN versions with separate caching systems
-- **13 Homebrew Payloads**: Comprehensive collection of essential PS4 homebrew tools
-- **PSFree Fix**: Dedicated payload to resolve common PSFree exploit issues
-- **Dual Loading System**: Local GoldHEN BinLoader support with online fallback
-- **Isolated Caching**: Each GoldHEN version caches only its required files
-- **Auto-Activation**: Automatic exploit activation in offline mode
-- **Responsive Design**: Works on all screen sizes with touch-friendly interface
+*   **نظام اختيار الإصدار**: اختر بين GoldHEN v2.4b18.6 (الأحدث) أو v2.4b18.5 (المستقر)
+*   **تصميم داكن عصري**: تصميم أنيق مستوحى من PlayStation مع خلفيات متدرجة وألوان بنفسجية/وردية
+*   **مُحسّن لمتصفح PS4**: واجهة خفيفة وسريعة التحميل مصممة خصيصًا لأجهزة PS4 Fat والأحدث
+*   **دعم GoldHEN المزدوج**: كلا الإصدارين الأحدث والمستقر من GoldHEN مع أنظمة تخزين مؤقت منفصلة
+*   **13 أداة Homebrew (Payload)**: مجموعة شاملة من أدوات Homebrew الأساسية لجهاز PS4
+*   **إصلاح PSFree**: أداة مخصصة لحل المشكلات الشائعة في استغلال PSFree
+*   **نظام تحميل مزدوج**: دعم تحميل GoldHEN BinLoader محليًا مع خيار احتياطي عبر الإنترنت
+*   **تخزين مؤقت مُعزول**: كل إصدار من GoldHEN يخزن مؤقتًا الملفات المطلوبة له فقط
+*   **تفعيل تلقائي**: تفعيل الاستغلال تلقائيًا في وضع عدم الاتصال
+*   **تصميم متجاوب**: يعمل على جميع أحجام الشاشات بواجهة سهلة الاستخدام باللمس
 
-## 🔧 Supported Firmware Versions
+## 🔧 إصدارات البرامج الثابتة المدعومة
 
-- PlayStation 4 Firmware 9.00
-- PlayStation 4 Firmware 9.03
-- PlayStation 4 Firmware 9.04
-- PlayStation 4 Firmware 9.50
-- PlayStation 4 Firmware 9.51
-- PlayStation 4 Firmware 9.60
+*   PlayStation 4 Firmware 9.00
+*   PlayStation 4 Firmware 9.03
+*   PlayStation 4 Firmware 9.04
+*   PlayStation 4 Firmware 9.50
+*   PlayStation 4 Firmware 9.51
+*   PlayStation 4 Firmware 9.60
 
-## 📦 Included Payloads (13 Total)
+## 📦 الأدوات المضمنة (13 أداة إجمالاً)
 
-### 🔧 System Fixes & Debugging
-- **PSFree Fix**: Resolves common issues with PSFree exploit execution
-- **PS4Debug**: Remote debugging tool for homebrew development
-- **WebRTE**: Real-time editing features for advanced users
+### 🔧 إصلاحات النظام وتصحيح الأخطاء
 
-### 📁 File Management & Transfer
-- **FTP Server**: Start FTP server for wireless file access and transfer
-- **App2USB**: Transfer installed applications to USB storage
-- **Backup**: Backup system data and databases to USB drive
-- **Restore**: Restore system data and databases from USB backup
+*   **PSFree Fix**: يحل المشكلات الشائعة في تنفيذ استغلال PSFree
+*   **PS4Debug**: أداة تصحيح أخطاء عن بعد لتطوير Homebrew
+*   **WebRTE**: ميزات التحرير في الوقت الفعلي للمستخدمين المتقدمين
 
-### 🔄 System Updates & Cache
-- **Disable Updates**: Block PlayStation system updates
-- **Enable Updates**: Re-enable PlayStation system updates  
-- **AppCache Install**: Install and manage application cache files
+### 📁 إدارة ونقل الملفات
 
-### 🔐 Security & Privacy
-- **History Blocker**: Block browser history tracking and data collection
-- **RIF Renamer**: Manage and rename license (RIF) files
-- **PUP Decrypt**: Decrypt PlayStation update (PUP) files for analysis
+*   **FTP Server**: بدء خادم FTP للوصول إلى الملفات ونقلها لاسلكيًا
+*   **App2USB**: نقل التطبيقات المثبتة إلى وحدة تخزين USB
+*   **Backup**: نسخ احتياطي لبيانات النظام وقواعد البيانات إلى محرك أقراص USB
+*   **Restore**: استعادة بيانات النظام وقواعد البيانات من النسخ الاحتياطي على USB
 
-## 🚀 Installation & Usage
+### 🔄 تحديثات النظام والتخزين المؤقت
 
-1. **Setup Web Server**: Host these files on a local web server or use online hosting
-2. **Access via PS4**: Open the PS4 browser and navigate to your host URL
-3. **Version Selection**: Choose your preferred GoldHEN version:
-   - **GoldHEN v2.4b18.6 (Latest)**: Newest features and improvements
-   - **GoldHEN v2.4b18.5 (Stable)**: Proven reliability and stability
-4. **Cache Loading**: Selected version files will be cached for offline use
-5. **Auto-Jailbreak**: The exploit automatically activates in offline mode
-6. **Load Payloads**: Once jailbroken, select desired payloads from the interface
+*   **Disable Updates**: حظر تحديثات نظام PlayStation
+*   **Enable Updates**: إعادة تمكين تحديثات نظام PlayStation
+*   **AppCache Install**: تثبيت وإدارة ملفات التخزين المؤقت للتطبيقات
 
-### 🔄 Version Selection Benefits
+### 🔐 الأمان والخصوصية
 
-- **Isolated Systems**: Each version has its own complete file set and cache
-- **No Cross-Contamination**: Switching versions won't affect cached files
-- **Optimized Loading**: Only necessary files are cached per version
-- **Fallback Options**: Use stable version if latest has issues
+*   **History Blocker**: حظر تتبع سجل المتصفح وجمع البيانات
+*   **RIF Renamer**: إدارة وإعادة تسمية ملفات الترخيص (RIF)
+*   **PUP Decrypt**: فك تشفير ملفات تحديث PlayStation (PUP) للتحليل
 
-### 🔄 Payload Loading Methods
+## 🚀 التثبيت والاستخدام
 
-- **Local Loading**: Payloads are automatically sent to GoldHEN BinLoader if available
-- **Online Fallback**: If BinLoader is unavailable, payloads switch to online loading mode
-- **Confirmation Dialogs**: Each payload requests user confirmation before loading
-- **Status Messages**: Real-time feedback on payload loading status
+1.  **إعداد خادم الويب**: استضف هذه الملفات على خادم ويب محلي أو استخدم استضافة عبر الإنترنت
+2.  **الوصول عبر PS4**: افتح متصفح PS4 وانتقل إلى عنوان URL الخاص بالمُضيف
+3.  **اختيار الإصدار**: اختر إصدار GoldHEN المفضل لديك:
+    *   **GoldHEN v2.4b18.6 (الأحدث)**: أحدث الميزات والتحسينات
+    *   **GoldHEN v2.4b18.5 (المستقر)**: موثوقية وثبات مُثبت
+4.  **تحميل التخزين المؤقت**: سيتم تخزين ملفات الإصدار المحدد مؤقتًا للاستخدام في وضع عدم الاتصال
+5.  **الجيلبريك التلقائي**: يتم تفعيل الاستغلال تلقائيًا في وضع عدم الاتصال
+6.  **تحميل الأدوات**: بمجرد كسر الحماية، اختر الأدوات المطلوبة من الواجهة
 
-## 🎨 Design Features
+### 🔄 فوائد اختيار الإصدار
 
-- **Version Selection Interface**: Beautiful card-based version selector with hover effects
-- **Color Scheme**: Dark gradient backgrounds with purple, blue, and pink accents
-- **Typography**: Modern Inter font family for excellent readability
-- **Interactive Elements**: Card-based design with full-area click functionality
-- **Animations**: Subtle floating geometric shapes and smooth transitions
-- **Compact Layout**: Optimized for quick navigation and minimal scrolling
-- **Glassmorphism**: Backdrop blur effects for modern UI aesthetics
-- **Visual Feedback**: Color-coded version badges and hover states
+*   **أنظمة مُعزولة**: كل إصدار له مجموعة ملفات وتخزين مؤقت كاملة خاصة به
+*   **لا تداخل**: تبديل الإصدارات لن يؤثر على الملفات المخزنة مؤقتًا
+*   **تحميل مُحسّن**: يتم تخزين الملفات الضرورية فقط لكل إصدار مؤقتًا
+*   **خيارات احتياطية**: استخدم الإصدار المستقر إذا واجهت مشكلات في الإصدار الأحدث
 
-## 🛠️ Technical Details
+### 🔄 طرق تحميل الأدوات
 
-- **Exploit Base**: PSFree 1.5rc1 with Lapse Auto GoldHEN
-- **Multi-Version Architecture**: Separate file sets for each GoldHEN version
-- **Cache System**: Dual application cache manifests (PSPulse.manifest & PSPulse5.manifest)
-- **Browser Compatibility**: Optimized for PS4's WebKit-based browser
-- **Performance**: Minimal resource usage for stable operation on PS4 hardware
-- **Payload System**: Dual-mode loading with automatic fallback mechanisms
-- **Error Handling**: Comprehensive error catching and user feedback
-- **Memory Management**: Optimized payload execution through thread management
-- **Offline Auto-Activation**: Automatic exploit execution without user intervention
+*   **تحميل محلي**: يتم إرسال الأدوات تلقائيًا إلى GoldHEN BinLoader إذا كان متاحًا
+*   **احتياطي عبر الإنترنت**: إذا لم يكن BinLoader متاحًا، تتحول الأدوات إلى وضع التحميل عبر الإنترنت
+*   **حوارات التأكيد**: تطلب كل أداة تأكيد المستخدم قبل التحميل
+*   **رسائل الحالة**: ملاحظات في الوقت الفعلي حول حالة تحميل الأداة
 
-## 🎯 Browser Compatibility
+## 🎨 ميزات التصميم
 
-- ✅ PlayStation 4 Fat Browser
-- ✅ PlayStation 4 Slim Browser  
-- ✅ PlayStation 4 Pro Browser
-- ✅ Modern Desktop Browsers (for development)
+*   **واجهة اختيار الإصدار**: مُحدد إصدار جميل قائم على البطاقات مع تأثيرات التمرير
+*   **نظام الألوان**: خلفيات متدرجة داكنة مع لمسات بنفسجية وزرقاء ووردية
+*   **الخط**: خط Inter العصري لقراءة ممتازة
+*   **العناصر التفاعلية**: تصميم قائم على البطاقات مع وظيفة النقر على المنطقة الكاملة
+*   **الرسوم المتحركة**: أشكال هندسية عائمة خفيفة وانتقالات سلسة
+*   **تخطيط مُدمج**: مُحسّن للتنقل السريع والحد الأدنى من التمرير
+*   **تأثير الزجاج (Glassmorphism)**: تأثيرات ضبابية للخلفية لجمالية واجهة مستخدم عصرية
+*   **ملاحظات بصرية**: شارات إصدار مُرمّزة بالألوان وحالات التمرير
 
-## ⚠️ Important Notes
+## 🛠️ التفاصيل التقنية
 
-- **Firmware Check**: Automatically detects and validates PS4 firmware version
-- **Safety**: Only use on compatible firmware versions to avoid system damage
-- **Backup**: Always backup your system before using homebrew tools
-- **Legal**: Use only with legally owned games and software
+*   **قاعدة الاستغلال**: PSFree 1.5rc1 مع Lapse Auto GoldHEN
+*   **هندسة متعددة الإصدارات**: مجموعات ملفات منفصلة لكل إصدار من GoldHEN
+*   **نظام التخزين المؤقت**: بيانان للتخزين المؤقت للتطبيق المزدوج (PSPulse.manifest و PSPulse5.manifest)
+*   **توافق المتصفح**: مُحسّن لمتصفح PS4 القائم على WebKit
+*   **الأداء**: الحد الأدنى من استخدام الموارد للتشغيل المستقر على أجهزة PS4
+*   **نظام الأدوات**: تحميل مزدوج الوضع مع آليات احتياطية تلقائية
+*   **معالجة الأخطاء**: التقاط شامل للأخطاء وملاحظات للمستخدم
+*   **إدارة الذاكرة**: تنفيذ مُحسّن للأدوات من خلال إدارة الخيوط
+*   **التفعيل التلقائي في وضع عدم الاتصال**: تنفيذ تلقائي للاستغلال دون تدخل المستخدم
 
-## 🔗 Credits & Links
+## 🎯 توافق المتصفح
 
-- **Author**: [BlackArch](https://t.me/sudoBlackArch)
-- **Telegram Community**: [PlayStation Pulse](https://t.me/PlayStation_Pulse)
-- **PSFree Base**: Original PSFree exploit framework
+*   ✅ متصفح PlayStation 4 Fat
+*   ✅ متصفح PlayStation 4 Slim
+*   ✅ متصفح PlayStation 4 Pro
+*   ✅ متصفحات سطح المكتب الحديثة (للتطوير)
 
-## 📱 Community
+## ⚠️ ملاحظات هامة
 
-Join our Telegram community for:
-- Latest updates and releases
-- Technical support and troubleshooting
-- Latest FC 26 squads for PS4 | PS5
-- PlayStation homebrew discussions
-- Beta testing opportunities
+*   **فحص البرنامج الثابت**: يكتشف ويتحقق تلقائيًا من إصدار البرنامج الثابت لجهاز PS4
+*   **السلامة**: استخدم فقط على إصدارات البرامج الثابتة المتوافقة لتجنب تلف النظام
+*   **النسخ الاحتياطي**: قم دائمًا بنسخ نظامك احتياطيًا قبل استخدام أدوات Homebrew
+*   **قانوني**: استخدم فقط مع الألعاب والبرامج المملوكة قانونيًا
 
-## 🔄 Changelog
+## 🔗 الروابط
 
-### v4.0 (Current)
-- **🆕 Version Selection System**: Choose between GoldHEN v2.4b18.6 (Latest) or v2.4b18.5 (Stable)
-- **🎨 Enhanced UI Design**: Beautiful card-based version selector with purple/pink color scheme
-- **🔧 Isolated Caching**: Separate cache systems for each GoldHEN version
-- **⚡ Auto-Activation**: Fixed offline mode auto-activation for both versions
-- **🎯 Click-Friendly Interface**: Full-area clickable cards without unnecessary buttons
-- **📱 Touch Optimized**: Improved mobile and PS4 browser compatibility
-- **🔄 Smart File Management**: Version-specific file sets prevent conflicts
+*   **المؤلف**: [BlackArch](https://t.me/sudoBlackArch)
+*   **مجتمع تيليجرام**: [4GAMER](https://t.me/C9_9M)
+*   **قاعدة PSFree**: إطار عمل استغلال PSFree الأصلي
+
+## 📱 المجتمع
+
+انضم إلى مجتمعنا على تيليجرام من أجل:
+
+*   آخر التحديثات والإصدارات
+*   الدعم الفني وحل المشكلات
+*   مناقشات Homebrew لجهاز PlayStation
+*   فرص الاختبار التجريبي
+
+## 🔄 سجل التغييرات
+
+### v4.0 (الحالي)
+
+*   **🆕 نظام اختيار الإصدار**: اختر بين GoldHEN v2.4b18.6 (الأحدث) أو v2.4b18.5 (المستقر)
+*   **🎨 تصميم واجهة مستخدم مُحسّن**: مُحدد إصدار جميل قائم على البطاقات بنظام ألوان بنفسجي/وردي
+*   **🔧 تخزين مؤقت مُعزول**: أنظمة تخزين مؤقت منفصلة لكل إصدار من GoldHEN
+*   **⚡ تفعيل تلقائي**: تم إصلاح التفعيل التلقائي لوضع عدم الاتصال لكلا الإصدارين
+*   **🎯 واجهة سهلة النقر**: بطاقات قابلة للنقر بالكامل دون أزرار غير ضرورية
+*   **📱 مُحسّن للمس**: تحسين التوافق مع متصفح الهاتف المحمول و PS4
+*   **🔄 إدارة ملفات ذكية**: مجموعات ملفات خاصة بالإصدار تمنع التعارضات
 
 ### v3.0
-- **Major Payload Overhaul**: Added 13 essential homebrew payloads
-- **PSFree Fix**: Dedicated payload to resolve exploit issues
-- **Dual Loading System**: GoldHEN BinLoader support with online fallback
-- **Removed Legacy Payloads**: Cleaned up interface by removing outdated tools
-- **Enhanced Error Handling**: Fixed import errors and improved stability
-- **Updated UI**: Reorganized payload categories with descriptive tooltips
+
+*   **تجديد رئيسي للأدوات**: تمت إضافة 13 أداة Homebrew أساسية
+*   **إصلاح PSFree**: أداة مخصصة لحل مشكلات الاستغلال
+*   **نظام تحميل مزدوج**: دعم GoldHEN BinLoader مع خيار احتياطي عبر الإنترنت
+*   **إزالة الأدوات القديمة**: تنظيف الواجهة عن طريق إزالة الأدوات التي عفا عليها الزمن
+*   **معالجة أخطاء مُحسّنة**: تم إصلاح أخطاء الاستيراد وتحسين الاستقرار
+*   **تحديث واجهة المستخدم**: إعادة تنظيم فئات الأدوات مع تلميحات وصفية
 
 ### v2.0
-- Complete UI/UX redesign with modern dark theme
-- Optimized for PS4 browser performance
-- Updated to GoldHEN v2.4b18.6
-- Improved cache system with PSPulse.manifest
-- Responsive design for all screen sizes
-- Enhanced payload organization and descriptions
 
-## 📄 License
+*   إعادة تصميم كاملة لواجهة المستخدم/تجربة المستخدم بتصميم داكن عصري
+*   مُحسّن لأداء متصفح PS4
+*   تم التحديث إلى GoldHEN v2.4b18.6
+*   تحسين نظام التخزين المؤقت باستخدام PSPulse.manifest
+*   تصميم متجاوب لجميع أحجام الشاشات
+*   تنظيم ووصف مُحسّن للأدوات
 
-This project is based on the original PSFree exploit and maintains compatibility with the PlayStation 4 homebrew ecosystem. Use responsibly and in accordance with local laws.
+## 📄 الترخيص
 
-## 🚨 Disclaimer
+يعتمد هذا المشروع على استغلال PSFree الأصلي ويحافظ على التوافق مع نظام Homebrew لجهاز PlayStation 4. استخدم بمسؤولية ووفقًا للقوانين المحلية.
 
-This software is provided for educational and research purposes only. The authors are not responsible for any damage to your console or violation of terms of service. Use at your own risk and ensure you understand the implications of running homebrew software on your PlayStation 4.
+## 🚨 إخلاء مسؤولية
+
+يتم توفير هذا البرنامج لأغراض تعليمية وبحثية فقط. المؤلفون غير مسؤولين عن أي ضرر يلحق بجهازك أو انتهاك لشروط الخدمة. استخدم على مسؤوليتك الخاصة وتأكد من فهمك لتداعيات تشغيل برامج Homebrew على جهاز PlayStation 4 الخاص بك.
 
 ---
 
-**Made with ❤️ for the PlayStation Pulse Community**
+**صُنع بـ ❤️ لمجتمع 4GAMER**
