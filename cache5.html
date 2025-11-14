@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PlayStation Pulse PSFree Host 9.xx - Auto Cache (GoldHEN v2.4b18.5)</title>
+    <title>4GAMER PSFree Host 9.xx - التخزين المؤقت التلقائي (GoldHEN v2.4b18.5)</title>
     <script>history.replaceState(null,null,'index5.html');</script>
     <style>
         * {
@@ -234,36 +234,36 @@
     
     <div class="container">
         <div class="logo-section">
-            <h1 class="main-title">PlayStation Pulse PSFree Host 9.xx</h1>
-            <p class="subtitle">Loading Offline Cache</p>
+            <h1 class="main-title">4GAMER PSFree Host 9.xx</h1>
+            <p class="subtitle">جاري تحميل التخزين المؤقت للاستخدام دون اتصال</p>
         </div>
         
         <div class="progress-container">
-            <div class="progress-label" id="progress">Loading.. Please Wait !!!</div>
+            <div class="progress-label" id="progress">جاري التحميل.. يرجى الانتظار !!!</div>
             <div class="progress-wrapper">
                 <div class="progress-bar" id="myProgress">
                     <div class="progress-fill" id="myBar"></div>
                     <div class="progress-text" id="progressText">0%</div>
                 </div>
             </div>
-            <div class="status-message">Initializing cache system...</div>
+            <div class="status-message">جاري تهيئة نظام التخزين المؤقت...</div>
         </div>
     </div>
     
     <div class="credits">
-        <div class="credits-line">
-            <span class="credit-label">Author:</span> 
+        <div class="credits-line" style="direction: rtl;">
+            <span class="credit-label">المؤلف:</span> 
             <a href="https://t.me/sudoBlackArch" class="telegram-link">BlackArch</a>
             <span style="margin: 0 1rem;">•</span>
-            <span class="credit-label">Telegram:</span> 
-            <a href="https://t.me/PlayStation_Pulse" class="credit-link">PlayStation Pulse</a>
+            <span class="credit-label">تيليجرام:</span> 
+            <a href="https://t.me/C9_9M" class="credit-link" style="color: #008000; font-weight: 700;">4GAMER</a>
         </div>
     </div>
 
     <script>
         if(window.applicationCache.status==2){localStorage.is755BCached=true;}
         window.applicationCache.ondownloading=function(){
-            document.getElementById("progress").innerHTML="Page Caching Started!!";
+            document.getElementById("progress").innerHTML="بدأ التخزين المؤقت للصفحة!!";
             localStorage.is755BCached=false;
         };
         window.applicationCache.onprogress=function(a){
@@ -272,12 +272,12 @@
             document.getElementById("progressText").innerHTML = progress + "%";
         };
         window.applicationCache.oncached=function(){
-            document.getElementById("progress").innerHTML="Page Cached Successfully!!!";
+            document.getElementById("progress").innerHTML="تم تخزين الصفحة مؤقتًا بنجاح!!!";
             localStorage.is755BCached=true;
             setTimeout(function(){window.location.reload("myBar"); }, 1500);
         };
         window.applicationCache.onupdateready=function(){
-            document.getElementById("progress").innerHTML="Update Cache Successfully!!!";
+            document.getElementById("progress").innerHTML="تم تحديث التخزين المؤقت بنجاح!!!";
             localStorage.is755BCached=true;
             setTimeout(function(){window.location.reload("myBar"); }, 1500);
         };

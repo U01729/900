@@ -1,6 +1,6 @@
 //------BIG THANKS TO SISTRO FOR THIS !!!!!--------
 
-var LoadedMSG = "Payload Loaded!";
+var LoadedMSG = "تم تحميل الأداة (Payload)!";
 
 var getPayload = function(payload, onLoadEndCallback) {
   var req = new XMLHttpRequest();
@@ -60,7 +60,7 @@ function Loadpayloadlocal(PLfile){ //Loading Payload via Payload Param.
                 }
 			});
 			} else {
-				alert("Cannot Load Payload Because The BinLoader Server Is Busy");//<<If server is busy, alert message.
+				alert("لا يمكن تحميل الأداة لأن خادم BinLoader مشغول");//<<If server is busy, alert message.
 				return;
 		  }
 	  };
@@ -85,7 +85,7 @@ function Loadpayloadonline(PLfile) {
 // PSFree Fix
 
 function load_PSFreeFix(){
-    const Confirmation = confirm("Are you sure you want to load the PSFree Fix payload?");
+    const Confirmation = confirm("هل أنت متأكد من رغبتك في تحميل أداة إصلاح PSFree؟");
     if (Confirmation) {
         // First try local loading through GoldHen
         Loadpayloadlocal("./payloads/ps4-psfree-fix.bin");
@@ -93,151 +93,151 @@ function load_PSFreeFix(){
         // Also show loading message
         if (document.getElementById('log')) {
             awaitpl();
-            LoadedMSG = "PSFree Fix Payload Loaded!";
+            LoadedMSG = "تم تحميل أداة إصلاح PSFree!";
         }
     }
 }
 
 // App2USB - Transfer Apps to USB
 function load_app2usb(){
-    const Confirmation = confirm("Load App2USB payload? This allows transferring applications to USB storage.");
+    const Confirmation = confirm("تحميل أداة App2USB؟ هذه الأداة تسمح بنقل التطبيقات إلى وحدة تخزين USB.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/app2usb.bin");
         if (document.getElementById('log')) {
             awaitpl();
-            LoadedMSG = "App2USB Payload Loaded!";
+            LoadedMSG = "تم تحميل أداة App2USB!";
         }
     }
 }
 
 // AppCache Install
 function load_appcache_install(){
-    const Confirmation = confirm("Load AppCache Install payload?");
+    const Confirmation = confirm("تحميل أداة تثبيت التخزين المؤقت (AppCache Install)؟");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/appcache-install.bin");
         if (document.getElementById('log')) {
             awaitpl();
-            LoadedMSG = "AppCache Install Payload Loaded!";
+            LoadedMSG = "تم تحميل أداة تثبيت التخزين المؤقت (AppCache Install)!";
         }
     }
 }
 
 // Backup
 function load_backup(){
-    const Confirmation = confirm("Load Backup payload? This will backup your system data.");
+    const Confirmation = confirm("تحميل أداة النسخ الاحتياطي (Backup)؟ هذه الأداة ستقوم بنسخ بيانات نظامك احتياطيًا.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/backup.bin");
         if (document.getElementById('log')) {
             awaitpl();
-            LoadedMSG = "Backup Payload Loaded!";
+            LoadedMSG = "تم تحميل أداة النسخ الاحتياطي (Backup)!";
         }
     }
 }
 
 // Disable Updates
 function load_disable_updates(){
-    const Confirmation = confirm("Load Disable Updates payload? This will block system updates.");
+    const Confirmation = confirm("تحميل أداة تعطيل التحديثات؟ هذه الأداة ستحظر تحديثات النظام.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/disable-updates.bin");
         if (document.getElementById('log')) {
             awaitpl();
-            LoadedMSG = "Disable Updates Payload Loaded!";
+            LoadedMSG = "تم تحميل أداة تعطيل التحديثات!";
         }
     }
 }
 
 // Enable Updates
 function load_enable_updates(){
-    const Confirmation = confirm("Load Enable Updates payload? This will allow system updates.");
+    const Confirmation = confirm("تحميل أداة تمكين التحديثات؟ هذه الأداة ستسمح بتحديثات النظام.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/enable-updates.bin");
         if (document.getElementById('log')) {
             awaitpl();
-            LoadedMSG = "Enable Updates Payload Loaded!";
+            LoadedMSG = "تم تحميل أداة تمكين التحديثات!";
         }
     }
 }
 
 // FTP Server
 function load_ftp(){
-    const Confirmation = confirm("Load FTP Server payload? This will start an FTP server on your PS4.");
+    const Confirmation = confirm("تحميل أداة خادم FTP؟ هذه الأداة ستبدأ خادم FTP على جهاز PS4 الخاص بك.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/ftp.bin");
         if (document.getElementById('log')) {
             awaitpl();
-            LoadedMSG = "FTP Server Payload Loaded!";
+            LoadedMSG = "تم تحميل أداة خادم FTP!";
         }
     }
 }
 
 // History Blocker
 function load_history_blocker(){
-    const Confirmation = confirm("Load History Blocker payload? This will block browser history tracking.");
+    const Confirmation = confirm("تحميل أداة حظر السجل (History Blocker)؟ هذه الأداة ستحظر تتبع سجل المتصفح.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/history-blocker.bin");
         if (document.getElementById('log')) {
             awaitpl();
-            LoadedMSG = "History Blocker Payload Loaded!";
+            LoadedMSG = "تم تحميل أداة حظر السجل (History Blocker)!";
         }
     }
 }
 
 // PS4 Debug
 function load_ps4debug(){
-    const Confirmation = confirm("Load PS4Debug payload? This enables debugging features.");
+    const Confirmation = confirm("تحميل أداة PS4Debug؟ هذه الأداة تُمكّن ميزات تصحيح الأخطاء.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/ps4debug.bin");
         if (document.getElementById('log')) {
             awaitpl();
-            LoadedMSG = "PS4Debug Payload Loaded!";
+            LoadedMSG = "تم تحميل أداة PS4Debug!";
         }
     }
 }
 
 // PUP Decrypt
 function load_pup_decrypt(){
-    const Confirmation = confirm("Load PUP Decrypt payload? This allows decrypting PS4 update files.");
+    const Confirmation = confirm("تحميل أداة فك تشفير PUP؟ هذه الأداة تسمح بفك تشفير ملفات تحديث PS4.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/pup-decrypt.bin");
         if (document.getElementById('log')) {
             awaitpl();
-            LoadedMSG = "PUP Decrypt Payload Loaded!";
+            LoadedMSG = "تم تحميل أداة فك تشفير PUP!";
         }
     }
 }
 
 // Restore
 function load_restore(){
-    const Confirmation = confirm("Load Restore payload? This will restore your system data.");
+    const Confirmation = confirm("تحميل أداة الاستعادة (Restore)؟ هذه الأداة ستقوم باستعادة بيانات نظامك.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/restore.bin");
         if (document.getElementById('log')) {
             awaitpl();
-            LoadedMSG = "Restore Payload Loaded!";
+            LoadedMSG = "تم تحميل أداة الاستعادة (Restore)!";
         }
     }
 }
 
 // RIF Renamer
 function load_rif_renamer(){
-    const Confirmation = confirm("Load RIF Renamer payload? This tool manages license files.");
+    const Confirmation = confirm("تحميل أداة إعادة تسمية RIF؟ هذه الأداة تدير ملفات الترخيص.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/rif-renamer.bin");
         if (document.getElementById('log')) {
             awaitpl();
-            LoadedMSG = "RIF Renamer Payload Loaded!";
+            LoadedMSG = "تم تحميل أداة إعادة تسمية RIF!";
         }
     }
 }
 
 // WebRTE
 function load_webrte(){
-    const Confirmation = confirm("Load WebRTE payload? This enables real-time editing features.");
+    const Confirmation = confirm("تحميل أداة WebRTE؟ هذه الأداة تُمكّن ميزات التحرير في الوقت الفعلي.");
     if (Confirmation) {
         Loadpayloadlocal("./payloads/WebRTE_900.bin");
         if (document.getElementById('log')) {
             awaitpl();
-            LoadedMSG = "WebRTE Payload Loaded!";
+            LoadedMSG = "تم تحميل أداة WebRTE!";
         }
     }
 }
